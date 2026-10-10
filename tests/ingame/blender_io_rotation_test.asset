@@ -1,0 +1,36 @@
+# Rotation check for Blender Stellaris Mesh IO.
+#
+# Eight copies of the reptilian transport in a row, left to right along +X, each turned differently:
+#   1 nothing   2 yaw 45   3 pitch 45   4 roll 45   5 yaw+pitch   6 pitch+roll   7 yaw+roll   8 all three
+# Copy this file into your mod's gfx/models folder (any subfolder), attach the test entity to something you can look
+# at in game, for example by adding this line to giga_shipyard_full_entity:
+#     attach = { "loc101" = "blender_io_rotation_test_entity" }
+# then load the same entity in Blender with Load Asset and compare the two. Remove the line again afterwards.
+
+entity = {
+	name = "blender_io_rotation_test_piece_entity"
+	pdxmesh = "reptilian_01_transport_mesh"
+}
+
+entity = {
+	name = "blender_io_rotation_test_entity"
+	scale = 3
+
+	locator = { name = "test1" position = { -140 120 0 } rotation = { 0 0 0 } }
+	locator = { name = "test2" position = { -100 120 0 } rotation = { 45 0 0 } }
+	locator = { name = "test3" position = { -60 120 0 } rotation = { 0 45 0 } }
+	locator = { name = "test4" position = { -20 120 0 } rotation = { 0 0 45 } }
+	locator = { name = "test5" position = { 20 120 0 } rotation = { 45 45 0 } }
+	locator = { name = "test6" position = { 60 120 0 } rotation = { 0 45 45 } }
+	locator = { name = "test7" position = { 100 120 0 } rotation = { 45 0 45 } }
+	locator = { name = "test8" position = { 140 120 0 } rotation = { 45 45 45 } }
+
+	attach = { "test1" = "blender_io_rotation_test_piece_entity" }
+	attach = { "test2" = "blender_io_rotation_test_piece_entity" }
+	attach = { "test3" = "blender_io_rotation_test_piece_entity" }
+	attach = { "test4" = "blender_io_rotation_test_piece_entity" }
+	attach = { "test5" = "blender_io_rotation_test_piece_entity" }
+	attach = { "test6" = "blender_io_rotation_test_piece_entity" }
+	attach = { "test7" = "blender_io_rotation_test_piece_entity" }
+	attach = { "test8" = "blender_io_rotation_test_piece_entity" }
+}

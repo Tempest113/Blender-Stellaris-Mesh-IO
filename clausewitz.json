@@ -1,0 +1,36 @@
+{
+    "stellaris": {
+        "material": [
+            "Collision",
+            "AlphaBlendNoDepth",
+            "PdxMeshAdvanced",
+            "PdxMeshAlphaAdditive",
+            "PdxMeshAlphaAdditiveAnimateUV",
+            "PdxMeshAlphaBlend",
+            "PdxMeshAsteroid",
+            "PdxMeshAtmosphere",
+            "PdxMeshAtmosphereStar",
+            "PdxMeshCircleGradient",
+            "PdxMeshClouds",
+            "PdxMeshColor",
+            "PdxMeshColorAlphaAdditiveAnimateUV",
+            "PdxMeshExtraDimensionalShip",
+            "PdxMeshNavigationButton",
+            "PdxMeshPlanet",
+            "PdxMeshPlanetEmissive",
+            "PdxMeshPlanetRings",
+            "PdxMeshPortrait",
+            "PdxMeshPortraitClothes",
+            "PdxMeshPortraitHair",
+            "PdxMeshShieldFlipBook",
+            "PdxMeshShieldUVStrech",
+            "PdxMeshShip",
+            "PdxMeshShipColored",
+            "PdxMeshStandard",
+            "PdxMeshStar",
+            "PdxMeshTerra",
+            "PdxMeshTerraAlphaBlend",
+            "PdxMeshTerraAlphaTest"
+        ]
+    }
+}

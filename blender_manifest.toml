@@ -1,0 +1,29 @@
+schema_version = "1.0.0"
+
+# Required
+id = "blender_stellaris_mesh_io"
+name = "Stellaris Mesh IO"
+maintainer = "Tempest113"
+tagline = "Import and export Stellaris mesh, animation and asset files"
+type = "add-on"
+version = "1.0.0"
+blender_version_min = "4.2.0"
+license = ["SPDX:GPL-3.0-or-later"]
+
+# Optional
+tags = ["Import-Export", "Mesh", "Animation"]
+website = "https://github.com/Tempest113/Blender-Stellaris-Mesh-IO"
+
+
+[permissions]
+files = "Import/export PDX files, read game & mod folders, save settings"
+network = "Check GitHub for a newer release"
+
+[build]
+paths_exclude_pattern = [
+    "__pycache__/",
+    "test files/",
+    "tests/",
+    "*.pyc",
+    ".*/",
+]
