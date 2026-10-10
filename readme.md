@@ -6,6 +6,8 @@ It started out as [io_pdx_mesh](https://github.com/ross-g/io_pdx_mesh) by ross-g
 
 Built and tested on Blender 5.2.2 LTS. 4.2 to 5.1 should work too but haven't been re-tested.
 
+Disclaimer: This is a vibecoded update to ross-g's original project, I have no claim to any of the code here.
+
 ## Install
 1. Grab `blender_stellaris_mesh_io-<version>.zip` from the [latest release](https://github.com/Tempest113/Blender-Stellaris-Mesh-IO/releases/latest).
 2. In Blender go to `Edit > Preferences > Get Extensions`, open the dropdown in the top right and pick `Install from Disk...`, then select the zip.
